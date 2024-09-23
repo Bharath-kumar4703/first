@@ -1,0 +1,15 @@
+N = input()
+I = int(input())
+L= int(input())
+sub = N[I:]
+res = ""
+for i in range(L):
+    val = sub[i]
+    res = val + res
+print(res)
+
+i/p:: 'equanimity'
+       3
+       3
+       
+o/p:: ina
